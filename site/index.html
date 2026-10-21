@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KYN — керамика для подарков и бизнеса</title>
+  <meta name="description" content="Керамика ручной работы для корпоративных подарков, партнёров и HoReCa. Каталог изделий, подарочные наборы, брендирование и глазури на выбор.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Days+One&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Силуэты изделий для плиток-заглушек -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-cup" viewBox="0 0 48 48">
+      <path d="M7 17h27v5c0 9-5.8 15-13.5 15S7 31 7 22z"/>
+      <path d="M34 20.5h2.5a5 5 0 0 1 0 10H33" fill="none" stroke="currentColor" stroke-width="3.6" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="i-mug" viewBox="0 0 48 48">
+      <path d="M9 11h24v23a5 5 0 0 1-5 5H14a5 5 0 0 1-5-5z"/>
+      <path d="M33 15c4.5 0 6 2.4 4.2 4.8s1.8 4 .2 6.4S33 30 33 30" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-jug" viewBox="0 0 48 48">
+      <path d="M13 9h18l-2.5 4.5C33 17.5 35 22 35 27c0 7-4.6 12-11.5 12S12 34 12 27c0-5 2-9.5 5-13.5L12.5 11z"/>
+      <path d="M33 15.5c5 0 6.8 6 2.5 10.5" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="i-teapot" viewBox="0 0 48 48">
+      <circle cx="23" cy="10.5" r="2.6"/>
+      <path d="M15.5 16.5c2.5-3.5 12.5-3.5 15 0z"/>
+      <ellipse cx="23" cy="28" rx="12.5" ry="10.5"/>
+      <path d="M11.5 25.5C7 23.5 5 19.5 4 16.5c3.5.8 6.8 3.4 9 6.5z"/>
+      <path d="M35 21c6.5 0 7.5 10.5 0 12.5" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="i-bowl" viewBox="0 0 48 48">
+      <path d="M5 19h38c0 10.5-8.5 18-19 18S5 29.5 5 19z"/>
+      <rect x="17" y="35" width="14" height="4" rx="1.5"/>
+    </symbol>
+    <symbol id="i-plate" viewBox="0 0 48 48">
+      <ellipse cx="24" cy="27" rx="20" ry="9"/>
+      <ellipse cx="24" cy="26" rx="12" ry="4.6" fill="#fff" fill-opacity=".18"/>
+    </symbol>
+    <symbol id="i-tumbler" viewBox="0 0 48 48">
+      <path d="M13 10h22l-1.8 9c-.3 1.5-.3 2.5 0 4l1.8 13a3 3 0 0 1-3 3H16a3 3 0 0 1-3-3l1.8-13c.3-1.5.3-2.5 0-4z"/>
+    </symbol>
+    <symbol id="i-vase" viewBox="0 0 48 48">
+      <path d="M19.5 7h9v4.5c0 3.5 6.5 6.5 6.5 15 0 7.5-4.5 12.5-11 12.5S13 34 13 26.5c0-8.5 6.5-11.5 6.5-15z"/>
+    </symbol>
+    <symbol id="i-sun" viewBox="0 0 48 48">
+      <circle cx="24" cy="24" r="10"/>
+    </symbol>
+  </svg>
+
+  <header class="header" id="top">
+    <div class="wrap header__row">
+      <a class="logo" href="#top" aria-label="KYN art studio — на главную">
+        <img src="assets/logo-kyn-dark.svg" alt="KYN art studio" width="120" height="66">
+      </a>
+      <nav class="nav" id="nav" aria-label="Основное меню">
+        <a href="#catalog">Каталог</a>
+        <a href="#sets">Наборы</a>
+        <a href="#branding">Брендирование</a>
+        <a href="#glazes">Глазури</a>
+        <a href="#terms">Условия</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <a class="btn btn--small request-link" href="#request">Запрос КП <span class="badge" data-count hidden>0</span></a>
+      <button class="burger" type="button" aria-label="Меню" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="wrap hero__grid">
+        <div class="hero__text">
+          <p class="eyebrow">Hand made ceramic · KYN</p>
+          <h1>Керамика ручной работы для&nbsp;подарков клиентам и&nbsp;партнёрам</h1>
+          <p class="lead">Чашки, тарелки, кувшины и готовые подарочные наборы. Наносим ваш логотип, подбираем глазурь в&nbsp;фирменный цвет и&nbsp;упаковываем в&nbsp;коробку KYN.</p>
+          <div class="hero__actions">
+            <a class="btn" href="#catalog">Смотреть каталог</a>
+            <a class="btn btn--ghost" href="#sets">Подарочные наборы</a>
+          </div>
+          <ul class="facts">
+            <li><b>63</b><span>изделия в каталоге</span></li>
+            <li><b>от 20 шт</b><span>оптовые цены</span></li>
+            <li><b>26</b><span>глазурей на выбор</span></li>
+          </ul>
+        </div>
+        <div class="mosaic" aria-hidden="true">
+          <div class="tile t-cobalt  m-tall"><svg class="tile__icon c-ochre"><use href="#i-jug"/></svg><span class="tile__label">кобальт<br>глянцевая</span></div>
+          <div class="tile t-sand"><svg class="tile__icon c-espresso"><use href="#i-cup"/></svg><span class="tile__label">песок<br>матовая</span></div>
+          <div class="tile t-rust"><svg class="tile__icon c-sand"><use href="#i-bowl"/></svg><span class="tile__label">ржавчина<br>эффектная</span></div>
+          <div class="tile t-espresso"><svg class="tile__icon c-cobalt"><use href="#i-mug"/></svg><span class="tile__label">эспрессо<br>глянцевая</span></div>
+          <div class="tile t-ochre"><svg class="tile__icon c-cream"><use href="#i-vase"/></svg><span class="tile__label">охра<br>песчаник</span></div>
+          <div class="tile t-cream"><svg class="tile__icon c-terracotta"><use href="#i-cup"/></svg><span class="tile__label">молочная<br>глянцевая</span></div>
+          <div class="tile t-terracotta"><svg class="tile__icon c-clay"><use href="#i-teapot"/></svg><span class="tile__label">терракота<br>глянцевая</span></div>
+          <div class="tile t-slate"><svg class="tile__icon c-sand"><use href="#i-sun"/></svg><span class="tile__label">сланец<br>матовая</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ДЛЯ КОГО -->
+    <section class="section section--tight">
+      <div class="wrap usecases">
+        <div class="usecase"><span class="usecase__num">01</span><h3>Подарки клиентам</h3><p>Запоминающийся подарок, который остаётся на столе каждый день, а не в ящике.</p></div>
+        <div class="usecase"><span class="usecase__num">02</span><h3>Партнёрам и руководителям</h3><p>Наборы в тёмных и благородных глазурях, премиальная упаковка, открытка.</p></div>
+        <div class="usecase"><span class="usecase__num">03</span><h3>Команде и welcome-pack</h3><p>Кружки с логотипом компании — от 20 штук, оттиск или деколь.</p></div>
+        <div class="usecase"><span class="usecase__num">04</span><h3>Кафе и рестораны</h3><p>Посуда для HoReCa: тарелки, боулы, чашки в цвет интерьера.</p></div>
+      </div>
+    </section>
+
+    <!-- НАБОРЫ -->
+    <section class="section section--sand" id="sets">
+      <div class="wrap">
+        <div class="section__head">
+          <p class="eyebrow">Готовые решения</p>
+          <h2>Подарочные наборы</h2>
+          <p class="section__lead">Собраны в коробку KYN с ложементом. Состав, глазурь и тираж можно поменять под ваш бюджет.</p>
+        </div>
+        <div class="sets" data-sets></div>
+      </div>
+    </section>
+
+    <!-- КАТАЛОГ -->
+    <section class="section" id="catalog">
+      <div class="wrap">
+        <div class="section__head section__head--row">
+          <div>
+            <p class="eyebrow">Ассортимент</p>
+            <h2>Каталог изделий</h2>
+          </div>
+          <ul class="legend" aria-label="Цены">
+            <li><i class="dot dot--retail"></i>Розница</li>
+            <li><i class="dot dot--20"></i>От 20 шт</li>
+            <li><i class="dot dot--50"></i>От 50 шт</li>
+          </ul>
+        </div>
+
+        <div class="filters">
+          <div class="chips" role="group" aria-label="Категория" data-filter="cat"></div>
+          <div class="chips chips--sub" role="group" aria-label="Техника" data-filter="tech"></div>
+        </div>
+
+        <div class="grid" data-grid></div>
+        <p class="note">* Размер изделий ручной работы может незначительно отличаться. Цены в тенге за 1 шт, без нанесения логотипа.</p>
+      </div>
+    </section>
+
+    <!-- ТЕХНИКИ ПРОИЗВОДСТВА -->
+    <section class="section section--dark">
+      <div class="wrap split">
+        <div>
+          <p class="eyebrow eyebrow--light">Производство</p>
+          <h2>Два способа сделать вещь</h2>
+        </div>
+        <div class="methods">
+          <article class="method">
+            <svg class="method__icon"><use href="#i-mug"/></svg>
+            <h3>Шликерное литьё</h3>
+            <p>Жидкая глина заливается в гипсовые формы. Быстро для больших тиражей и позволяет делать сложные, оригинальные формы. Полуфарфор, высокотемпературный обжиг.</p>
+            <p class="method__note">Индивидуальная форма — от 3 месяцев на изготовление гипсовых форм.</p>
+          </article>
+          <article class="method">
+            <svg class="method__icon"><use href="#i-vase"/></svg>
+            <h3>Гончарный круг</h3>
+            <p>Каждое изделие формуется вручную. Можно выбрать глину и изменить размеры и форму под ваш запрос.</p>
+            <ul class="clays" data-clays></ul>
+            <p class="method__note">Изменение размера — при заказе от 20 шт.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ГЛАЗУРИ -->
+    <section class="section" id="glazes">
+      <div class="wrap">
+        <div class="section__head">
+          <p class="eyebrow">Цвет</p>
+          <h2>Глазури</h2>
+          <p class="section__lead">Однотонные и эффектные глазури. Если нужного цвета нет — разработаем ваш фирменный.</p>
+        </div>
+        <div data-glazes></div>
+      </div>
+    </section>
+
+    <!-- СПОСОБЫ ПОКРЫТИЯ -->
+    <section class="section section--sand">
+      <div class="wrap">
+        <div class="section__head">
+          <p class="eyebrow">Декор</p>
+          <h2>Способы покрытия</h2>
+          <p class="section__lead">Покрываем изделие полностью или частично и комбинируем цвета.</p>
+        </div>
+        <div class="decor">
+          <article class="decor__item"><div class="swatch sw-pour"></div><h3>Полив</h3><p>Свободные потёки глазури поверх сырой глины.</p></article>
+          <article class="decor__item"><div class="swatch sw-marble"></div><h3>Марбл</h3><p>Мраморные разводы из двух-трёх цветов.</p></article>
+          <article class="decor__item"><div class="swatch sw-gradient"></div><h3>Градиент</h3><p>Мягкий переход одного цвета в другой.</p></article>
+          <article class="decor__item"><div class="swatch sw-rim"></div><h3>Окантовка</h3><p>Тонкая цветная линия по краю изделия.</p></article>
+          <article class="decor__item"><div class="swatch sw-splash"></div><h3>Брызги</h3><p>Россыпь точек и капель — каждое изделие уникально.</p></article>
+          <article class="decor__item"><div class="swatch sw-paint"></div><h3>Роспись</h3><p>Индивидуальный рисунок или орнамент вручную.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- БРЕНДИРОВАНИЕ -->
+    <section class="section" id="branding">
+      <div class="wrap split split--branding">
+        <div class="stamp" aria-hidden="true">
+          <div class="stamp__bottom">
+            <span class="stamp__mark">ВАШ<br>ЛОГОТИП</span>
+          </div>
+        </div>
+        <div>
+          <p class="eyebrow">Для бизнеса</p>
+          <h2>Брендирование и&nbsp;деколь</h2>
+          <p class="section__lead">На любое изделие из каталога наносим ваш логотип, изображение или текст.</p>
+          <ul class="checks">
+            <li><b>Оттиск в глине</b> — логотип на дне изделия на этапе изготовления, навсегда.</li>
+            <li><b>Деколь</b> — полноцветное изображение под глазурью, не стирается в посудомойке.</li>
+            <li><b>Фирменный цвет</b> — подберём глазурь под ваш брендбук.</li>
+            <li><b>Упаковка KYN</b> — коробка с ложементом, лента и открытка с вашим текстом.</li>
+          </ul>
+          <a class="btn" href="#request">Обсудить брендирование</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- УСЛОВИЯ -->
+    <section class="section section--sand" id="terms">
+      <div class="wrap">
+        <div class="section__head">
+          <p class="eyebrow">Как заказать</p>
+          <h2>Условия</h2>
+        </div>
+        <ol class="steps">
+          <li><span>1</span><h3>Выберите изделия</h3><p>Добавьте позиции из каталога или готовый набор в запрос.</p></li>
+          <li><span>2</span><h3>Согласуем детали</h3><p>Глазурь, нанесение, упаковку и тираж. Пришлём КП.</p></li>
+          <li><span>3</span><h3>Предоплата 70%</h3><p>Запускаем производство после предоплаты.</p></li>
+          <li><span>4</span><h3>От 20 рабочих дней</h3><p>Изготовление, обжиг, упаковка и передача заказа.</p></li>
+        </ol>
+        <div class="terms">
+          <div class="term"><b>от 20 шт</b><span>оптовая скидка — зависит от объёма и сроков</span></div>
+          <div class="term"><b>35 000 ₸</b><span>разработка нового цвета глазури</span></div>
+          <div class="term"><b>70%</b><span>предоплата</span></div>
+          <div class="term"><b>от 20 дней</b><span>срок изготовления</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ЗАПРОС КП -->
+    <section class="section" id="request">
+      <div class="wrap split">
+        <div>
+          <p class="eyebrow">Запрос</p>
+          <h2>Запросить коммерческое предложение</h2>
+          <p class="section__lead">Добавляйте изделия и наборы кнопкой «В запрос» — они появятся здесь. Ответим в течение рабочего дня.</p>
+          <div class="cart" data-cart></div>
+        </div>
+        <form class="form" data-form>
+          <label>Имя<input name="name" required autocomplete="name"></label>
+          <label>Компания<input name="company" autocomplete="organization"></label>
+          <label>Телефон или e-mail<input name="contact" required autocomplete="tel"></label>
+          <label>Общий тираж, шт<input name="qty" type="number" min="1" inputmode="numeric" placeholder="например, 50"></label>
+          <label>Комментарий<textarea name="comment" rows="3" placeholder="Повод, сроки, нанесение логотипа, бюджет"></textarea></label>
+          <div class="form__actions">
+            <button class="btn" type="submit" data-send="whatsapp">Отправить в WhatsApp</button>
+            <button class="btn btn--ghost" type="submit" data-send="email">Отправить на e-mail</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contacts">
+    <div class="wrap footer__grid">
+      <img class="footer__logo" src="assets/logo-kyn-white.svg" alt="KYN art studio" width="180" height="99">
+      <div>
+        <h3>Контакты</h3>
+        <ul class="contacts" data-contacts></ul>
+      </div>
+      <div>
+        <h3>Разделы</h3>
+        <ul class="contacts">
+          <li><a href="#catalog">Каталог</a></li>
+          <li><a href="#sets">Подарочные наборы</a></li>
+          <li><a href="#branding">Брендирование</a></li>
+          <li><a href="#terms">Условия</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="wrap footer__bottom">© <span data-year></span> KYN art studio · Керамика ручной работы</div>
+  </footer>
+
+  <!-- Карточка товара -->
+  <dialog class="modal" data-modal>
+    <button class="modal__close" type="button" aria-label="Закрыть" data-close>×</button>
+    <div class="modal__body" data-modal-body></div>
+  </dialog>
+
+  <div class="toast" data-toast role="status" aria-live="polite"></div>
+
+  <script src="data/products.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
